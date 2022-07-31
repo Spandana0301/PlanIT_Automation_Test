@@ -27,7 +27,6 @@ public class Verify_items_page {
 
 	public Verify_items_page(WebDriver driver) {
 		PageFactory.initElements(driver, this);
-		
 
 	}
 
