@@ -14,6 +14,8 @@ public class Validate_Successful_Message extends TestBase {
 	@Test(priority=2,invocationCount = 5)
 
 	public void validateSuccess() throws Exception {
+		
+		//Opening Browser
 		configBrowser();
 
 		// Navigating to Contact page from Home page
@@ -33,6 +35,8 @@ public class Validate_Successful_Message extends TestBase {
 		String actualsucessful = driver.findElement(By.xpath("//strong[contains(@class,'ng-binding')]")).getText().substring(0, 6);
 		String expectedsuccessfulmes = "Thanks";
 		assertEquals(actualsucessful, expectedsuccessfulmes);
+		
+		//Closing Browser
 		closeBrowser();
 
 	}

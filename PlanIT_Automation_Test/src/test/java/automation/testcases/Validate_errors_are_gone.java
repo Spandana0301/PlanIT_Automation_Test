@@ -13,9 +13,11 @@ public class Validate_errors_are_gone extends TestBase {
 
 	@Test(priority = 1)
 	public void validateErrors() throws Exception {
-
+		
+        //Opening Browser
 		configBrowser();
-
+		
+        //Expected error messages
 		String messageError = "Message is required";
 		String forenameError = "Forename is required";
 		String emailError = "Email is required";
@@ -63,6 +65,7 @@ public class Validate_errors_are_gone extends TestBase {
 		Boolean messagePresent = driver.getPageSource().contains(messageError);
 		assertEquals(messagePresent, notDisplayed);
 
+		//closing Brpwser
 		closeBrowser();
 
 	}

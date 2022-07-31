@@ -9,7 +9,10 @@ public class Verify_itemsincart extends TestBase {
 
 	@Test(priority = 3)
 	public  void verifyItemsinCart() throws Exception {
+		
+		//Opening Browser
 		configBrowser();
+		
 		// Expected values for subtotal
 		String StuffedFrog = "$21.98";
 		String FluffyBunny = "$49.95";
@@ -57,6 +60,8 @@ public class Verify_itemsincart extends TestBase {
 
 		// Verifying the total price
 		assertEquals(price, totalprice);
+		
+		//Closing Browser
 		closeBrowser();
 
 	}
