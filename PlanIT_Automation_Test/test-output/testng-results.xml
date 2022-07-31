@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-31T17:11:02 AEST" name="planit" finished-at="2022-07-31T17:12:46 AEST" duration-ms="103772">
+    <groups>
+    </groups>
+    <test started-at="2022-07-31T17:11:02 AEST" name="Assessment" finished-at="2022-07-31T17:12:46 AEST" duration-ms="103772">
+      <class name="automation.testcases.Verify_itemsincart">
+        <test-method signature="verifyItemsinCart()[pri:3, instance:automation.testcases.Verify_itemsincart@4f80542f]" started-at="2022-07-31T17:11:02 AEST" name="verifyItemsinCart" finished-at="2022-07-31T17:11:47 AEST" duration-ms="44508" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyItemsinCart -->
+      </class> <!-- automation.testcases.Verify_itemsincart -->
+      <class name="automation.testcases.Validate_errors_are_gone">
+        <test-method signature="validateErrors()[pri:1, instance:automation.testcases.Validate_errors_are_gone@2dc54ad4]" started-at="2022-07-31T17:11:02 AEST" name="validateErrors" finished-at="2022-07-31T17:11:47 AEST" duration-ms="44500" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateErrors -->
+      </class> <!-- automation.testcases.Validate_errors_are_gone -->
+      <class name="automation.testcases.Validate_Successful_Message">
+        <test-method signature="validateSuccess()[pri:2, instance:automation.testcases.Validate_Successful_Message@534a5a98]" started-at="2022-07-31T17:11:02 AEST" name="validateSuccess" finished-at="2022-07-31T17:11:47 AEST" duration-ms="44301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSuccess -->
+        <test-method signature="validateSuccess()[pri:2, instance:automation.testcases.Validate_Successful_Message@534a5a98]" started-at="2022-07-31T17:11:47 AEST" name="validateSuccess" finished-at="2022-07-31T17:11:59 AEST" duration-ms="12149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSuccess -->
+        <test-method signature="validateSuccess()[pri:2, instance:automation.testcases.Validate_Successful_Message@534a5a98]" started-at="2022-07-31T17:11:59 AEST" name="validateSuccess" finished-at="2022-07-31T17:12:10 AEST" duration-ms="11132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSuccess -->
+        <test-method signature="validateSuccess()[pri:2, instance:automation.testcases.Validate_Successful_Message@534a5a98]" started-at="2022-07-31T17:12:10 AEST" name="validateSuccess" finished-at="2022-07-31T17:12:24 AEST" duration-ms="13786" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSuccess -->
+        <test-method signature="validateSuccess()[pri:2, instance:automation.testcases.Validate_Successful_Message@534a5a98]" started-at="2022-07-31T17:12:24 AEST" name="validateSuccess" finished-at="2022-07-31T17:12:46 AEST" duration-ms="22241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSuccess -->
+      </class> <!-- automation.testcases.Validate_Successful_Message -->
+    </test> <!-- Assessment -->
+  </suite> <!-- planit -->
+</testng-results>

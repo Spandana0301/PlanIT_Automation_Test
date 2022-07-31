@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [planit]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Assessment(failed)">
+    <classes>
+      <class name="automation.testcases.Validate_Successful_Message">
+        <methods>
+          <include name="validateSuccess"/>
+        </methods>
+      </class> <!-- automation.testcases.Validate_Successful_Message -->
+    </classes>
+  </test> <!-- Assessment(failed) -->
+</suite> <!-- Failed suite [planit] -->

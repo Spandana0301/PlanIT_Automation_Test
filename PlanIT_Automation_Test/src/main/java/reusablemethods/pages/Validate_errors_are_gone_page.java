@@ -1,0 +1,60 @@
+package reusablemethods.pages;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+import reusablemethods.base.TestBase;
+
+public class Validate_errors_are_gone_page {
+	
+	
+	
+	@FindBy(xpath ="//a[contains(@class,'primary')]")
+	
+	public WebElement submit;
+	
+	@FindBy(id="forename")
+	
+	public  WebElement namep;
+	
+	@FindBy(id ="email")
+	public WebElement emailid;
+	
+	@FindBy(name ="message")
+	
+	public WebElement messagee;
+	
+	//@FindBy(xpath = "//div[2]/div/a[contains(@class,'btn')]")
+	//public WebElement Button;
+	
+
+	public Validate_errors_are_gone_page(WebDriver driver) {
+	
+	PageFactory.initElements(driver, this);
+	
+	
+	
+
+}
+    
+	public void clickSubmitt() {
+    	
+   
+    	submit.click();
+    	
+    }
+    
+    public void mandetoryFields() {
+    	
+    	namep.sendKeys(TestBase.property.getProperty("name"));
+    	emailid.sendKeys(TestBase.property.getProperty("email"));
+    	messagee.sendKeys(TestBase.property.getProperty("message"));
+    	
+    }
+   // public void backutton() {
+   // 	Button.click();
+   // }
+    
+    
+   
+    }

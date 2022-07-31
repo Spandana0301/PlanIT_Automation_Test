@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="planit" thread-count="5" parallel="classes">
+	<test name="Assessment">
+		<classes>
+			<class name="automation.testcases.Validate_errors_are_gone" />
+			<class name="automation.testcases.Validate_Successful_Message" />
+			<class name="automation.testcases.Verify_itemsincart" />
+		</classes>
+
+	</test>
+</suite> 
